@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['object']
+
+roboflow:
+  workspace: ice-70qiw
+  project: counting1-r35q0
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ice-70qiw/counting1-r35q0/dataset/4
